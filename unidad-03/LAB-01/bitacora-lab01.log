@@ -1,0 +1,107 @@
+2026-11-08 18:05:17 CST LOG:  el sistema de bases de datos fue apagado en 2026-11-07 18:46:25 CST
+2026-11-08 18:10:17 CST LOG:  empezando checkpoint: time
+2026-11-08 18:10:17 CST LOG:  checkpoint completo: escritos 3 búfers (0.0%); 0 archivos WAL añadidos, 0 eliminados, 0 reciclados; write=0.007 s, sync=0.004 s, total=0.043 s; archivos sincronizados=2, más largo=0.003 s, promedio=0.002 s; distancia=0 kB, estimación=0 kB; lsn=0/1B8A630, lsn de redo=0/1B8A5F8
+2026-11-08 18:46:01 CST LOG:  conexión recibida: host=::1 port=50212
+2026-11-08 18:46:01 CST LOG:  conexión recibida: host=127.0.0.1 port=50023
+2026-11-08 18:46:01 CST LOG:  conexión recibida: host=::1 port=57924
+2026-11-08 18:46:01 CST LOG:  conexión recibida: host=127.0.0.1 port=51596
+2026-11-08 18:46:02 CST LOG:  conexión recibida: host=::1 port=55116
+2026-11-08 18:46:02 CST LOG:  conexión recibida: host=127.0.0.1 port=55117
+2026-11-08 18:46:02 CST LOG:  conexión recibida: host=::1 port=62867
+2026-11-08 18:46:02 CST LOG:  conexión recibida: host=127.0.0.1 port=51197
+2026-11-08 18:46:33 CST LOG:  conexión recibida: host=::1 port=62866
+2026-11-08 18:46:33 CST LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/16/data/pg_hba.conf:117)
+2026-11-08 18:46:33 CST LOG:  conexión autorizada: usuario=postgres base_de_datos=postgres nombre_de_aplicación=pgAdmin 4 - DB:postgres
+2026-11-08 18:46:54 CST LOG:  conexión recibida: host=::1 port=54802
+2026-11-08 18:46:54 CST LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/16/data/pg_hba.conf:117)
+2026-11-08 18:46:54 CST LOG:  conexión autorizada: usuario=postgres base_de_datos=db_23101954_marco_solis nombre_de_aplicación=pgAdmin 4 - DB:db_23101954_marco_solis
+2026-11-08 18:46:59 CST LOG:  conexión recibida: host=::1 port=53337
+2026-11-08 18:46:59 CST LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/16/data/pg_hba.conf:117)
+2026-11-08 18:46:59 CST LOG:  conexión autorizada: usuario=postgres base_de_datos=db_23101954_marco_solis nombre_de_aplicación=pgAdmin 4 - CONN:5984341
+2026-11-08 18:50:17 CST LOG:  empezando checkpoint: time
+2026-11-08 18:52:03 CST LOG:  checkpoint completo: escritos 974 búfers (5.9%); 0 archivos WAL añadidos, 0 eliminados, 1 reciclados; write=106.373 s, sync=0.242 s, total=106.646 s; archivos sincronizados=300, más largo=0.002 s, promedio=0.001 s; distancia=4569 kB, estimación=4569 kB; lsn=0/2000DF8, lsn de redo=0/2000DC0
+2026-11-08 18:57:23 CST LOG:  conexión recibida: host=::1 port=51219
+2026-11-08 18:57:23 CST LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/16/data/pg_hba.conf:117)
+2026-11-08 18:57:23 CST LOG:  conexión autorizada: usuario=postgres base_de_datos=db_23101954_marco_solis nombre_de_aplicación=pgAdmin 4 - CONN:4685943
+2026-11-08 18:57:32 CST LOG:  conexión recibida: host=::1 port=53821
+2026-11-08 18:57:32 CST LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/16/data/pg_hba.conf:117)
+2026-11-08 18:57:32 CST LOG:  conexión autorizada: usuario=postgres base_de_datos=db_23101954_marco_solis nombre_de_aplicación=pgAdmin 4 - CONN:6186632
+2026-11-08 18:57:44 CST LOG:  conexión recibida: host=::1 port=53146
+2026-11-08 18:57:44 CST LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/16/data/pg_hba.conf:117)
+2026-11-08 18:57:44 CST LOG:  conexión autorizada: usuario=postgres base_de_datos=db_23101954_marco_solis nombre_de_aplicación=pgAdmin 4 - CONN:702599
+2026-11-08 18:57:57 CST LOG:  conexión recibida: host=::1 port=58373
+2026-11-08 18:57:57 CST LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/16/data/pg_hba.conf:117)
+2026-11-08 18:57:57 CST LOG:  conexión autorizada: usuario=postgres base_de_datos=db_23101954_marco_solis nombre_de_aplicación=pgAdmin 4 - CONN:114060
+2026-11-08 19:00:11 CST ERROR:  secuencia de bytes no vÃ¡lida para codificaciÃ³n Â«UTF8Â»: 0xfa
+2026-11-08 19:00:11 CST SENTENCIA:  SELECT num, linea FROM dba.bitacora ORDER BY num DESC LIMIT 10;
+2026-11-08 19:00:17 CST LOG:  empezando checkpoint: time
+2026-11-08 19:00:21 CST LOG:  checkpoint completo: escritos 34 búfers (0.2%); 0 archivos WAL añadidos, 0 eliminados, 0 reciclados; write=3.655 s, sync=0.034 s, total=3.705 s; archivos sincronizados=28, más largo=0.004 s, promedio=0.002 s; distancia=127 kB, estimación=4125 kB; lsn=0/2020D20, lsn de redo=0/2020CE8
+2026-11-08 19:02:21 CST LOG:  conexión recibida: host=::1 port=65399
+2026-11-08 19:02:21 CST LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/16/data/pg_hba.conf:117)
+2026-11-08 19:02:21 CST LOG:  conexión autorizada: usuario=postgres base_de_datos=db_23101954_marco_solis nombre_de_aplicación=pgAdmin 4 - CONN:114060
+2026-11-08 19:02:21 CST LOG:  desconexiÃ³n: duraciÃ³n de sesiÃ³n: 0:00:00.029 usuario=postgres base=db_23101954_marco_solis host=::1 port=65399
+2026-11-08 19:02:21 CST LOG:  desconexiÃ³n: duraciÃ³n de sesiÃ³n: 0:15:22.221 usuario=postgres base=db_23101954_marco_solis host=::1 port=53337
+2026-11-08 19:02:38 CST ERROR:  no existe la relaciÃ³n Â«clientesÂ»
+2026-11-08 19:02:38 CST SENTENCIA:  REVOKE UPDATE ON clientes FROM soporte_ana;
+2026-11-08 19:02:47 CST ERROR:  no existe la relaciÃ³n Â«clientesÂ»
+2026-11-08 19:02:47 CST SENTENCIA:  GRANT UPDATE ON clientes TO app_ventas;
+2026-11-08 19:02:50 CST ERROR:  no existe la relaciÃ³n Â«clientesÂ»
+2026-11-08 19:02:50 CST SENTENCIA:  GRANT UPDATE ON clientes TO app_ventas;
+	ALTER TABLE clientes ADD COLUMN segmento VARCHAR(20);
+2026-11-08 19:03:40.130 CST [8544] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=54903
+2026-11-08 19:03:40.141 CST [8544] user=postgres db=db_23101954_marco_solis app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/16/data/pg_hba.conf:117)
+2026-11-08 19:03:40.141 CST [8544] user=postgres db=db_23101954_marco_solis app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=db_23101954_marco_solis nombre_de_aplicación=pgAdmin 4 - CONN:114060
+2026-11-08 19:03:40.146 CST [8544] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:114060 client=::1 LOG:  desconexiÃ³n: duraciÃ³n de sesiÃ³n: 0:00:00.040 usuario=postgres base=db_23101954_marco_solis host=::1 port=54903
+2026-11-08 19:03:40.148 CST [7396] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:4685943 client=::1 LOG:  desconexiÃ³n: duraciÃ³n de sesiÃ³n: 0:06:16.901 usuario=postgres base=db_23101954_marco_solis host=::1 port=51219
+2026-11-08 19:03:48.277 CST [5972] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:6186632 client=::1 LOG:  sentencia: REVOKE UPDATE ON clientes FROM soporte_ana;
+2026-11-08 19:03:48.278 CST [5972] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:6186632 client=::1 ERROR:  no existe la relaciÃ³n Â«clientesÂ»
+2026-11-08 19:03:48.278 CST [5972] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:6186632 client=::1 SENTENCIA:  REVOKE UPDATE ON clientes FROM soporte_ana;
+2026-11-08 19:03:52.317 CST [5972] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:6186632 client=::1 LOG:  sentencia: ALTER TABLE clientes ADD COLUMN segmento VARCHAR(20);
+2026-11-08 19:03:52.318 CST [5972] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:6186632 client=::1 ERROR:  no existe la relaciÃ³n Â«clientesÂ»
+2026-11-08 19:03:52.318 CST [5972] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:6186632 client=::1 SENTENCIA:  ALTER TABLE clientes ADD COLUMN segmento VARCHAR(20);
+2026-11-08 19:03:59.026 CST [5972] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:6186632 client=::1 LOG:  sentencia: CREATE ROLE rol_temporal LOGIN PASSWORD 'Temporal_Practica_2026';
+	DROP ROLE rol_temporal;
+2026-11-08 19:04:07.042 CST [13580] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=53673
+2026-11-08 19:04:07.052 CST [13580] user=postgres db=db_23101954_marco_solis app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/16/data/pg_hba.conf:117)
+2026-11-08 19:04:07.052 CST [13580] user=postgres db=db_23101954_marco_solis app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=db_23101954_marco_solis nombre_de_aplicación=pgAdmin 4 - CONN:114060
+2026-11-08 19:04:07.056 CST [13580] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:114060 client=::1 LOG:  desconexiÃ³n: duraciÃ³n de sesiÃ³n: 0:00:00.026 usuario=postgres base=db_23101954_marco_solis host=::1 port=53673
+2026-11-08 19:04:07.057 CST [5972] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:6186632 client=::1 LOG:  desconexiÃ³n: duraciÃ³n de sesiÃ³n: 0:06:34.427 usuario=postgres base=db_23101954_marco_solis host=::1 port=53821
+2026-11-08 19:04:18.401 CST [12032] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:702599 client=::1 LOG:  sentencia: ALTER SYSTEM SET log_statement = 'mod';
+	SELECT pg_reload_conf();
+2026-11-08 19:04:18.401 CST [12032] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:702599 client=::1 ERROR:  ALTER SYSTEM no puede ser ejecutado dentro de un bloque de transacciÃ³n
+2026-11-08 19:04:18.401 CST [12032] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:702599 client=::1 SENTENCIA:  ALTER SYSTEM SET log_statement = 'mod';
+	SELECT pg_reload_conf();
+2026-11-08 19:04:23.811 CST [12032] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:702599 client=::1 LOG:  sentencia: ALTER SYSTEM SET log_statement = 'mod';
+2026-11-08 19:04:36.690 CST [12032] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:702599 client=::1 LOG:  sentencia: DROP ROLE soporte_ana
+2026-11-08 19:04:36.690 CST [12032] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:702599 client=::1 ERROR:  no existe el rol Â«soporte_anaÂ»
+2026-11-08 19:04:36.690 CST [12032] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:702599 client=::1 SENTENCIA:  DROP ROLE soporte_ana
+2026-11-08 19:04:58.640 CST [12032] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:702599 client=::1 LOG:  sentencia: CREATE SCHEMA auditoria;
+2026-11-08 19:05:01.279 CST [12032] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:702599 client=::1 LOG:  sentencia: REVOKE ALL ON SCHEMA auditoria FROM PUBLIC;
+2026-11-08 19:05:06.561 CST [12032] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:702599 client=::1 LOG:  sentencia: CREATE TABLE auditoria.cambios_clientes (
+	    id_evento        BIGSERIAL PRIMARY KEY,
+	    momento          TIMESTAMPTZ NOT NULL DEFAULT now(),
+	    usuario_sesion   TEXT        NOT NULL DEFAULT session_user,
+	    usuario_efectivo TEXT        NOT NULL DEFAULT current_user,
+	    aplicacion       TEXT        DEFAULT current_setting('application_name'),
+	    ip_cliente       INET        DEFAULT inet_client_addr(),
+	    operacion        TEXT        NOT NULL,
+	    id_cliente       BIGINT,
+	    valores_antes    JSONB,
+	    valores_despues  JSONB
+	);
+2026-11-08 19:05:08.419 CST [7576] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=50832
+2026-11-08 19:05:08.429 CST [7576] user=postgres db=db_23101954_marco_solis app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/16/data/pg_hba.conf:117)
+2026-11-08 19:05:08.429 CST [7576] user=postgres db=db_23101954_marco_solis app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=db_23101954_marco_solis nombre_de_aplicación=pgAdmin 4 - CONN:114060
+2026-11-08 19:05:08.433 CST [7576] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:114060 client=::1 LOG:  desconexiÃ³n: duraciÃ³n de sesiÃ³n: 0:00:00.027 usuario=postgres base=db_23101954_marco_solis host=::1 port=50832
+2026-11-08 19:05:08.434 CST [12032] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:702599 client=::1 LOG:  desconexiÃ³n: duraciÃ³n de sesiÃ³n: 0:07:24.288 usuario=postgres base=db_23101954_marco_solis host=::1 port=53146
+2026-11-08 19:05:17.677 CST [5424] user= db= app= client= LOG:  empezando checkpoint: time
+2026-11-08 19:05:19.156 CST [12552] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=59049
+2026-11-08 19:05:19.166 CST [12552] user=postgres db=db_23101954_marco_solis app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/16/data/pg_hba.conf:117)
+2026-11-08 19:05:19.166 CST [12552] user=postgres db=db_23101954_marco_solis app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=db_23101954_marco_solis nombre_de_aplicación=pgAdmin 4 - CONN:114060
+2026-11-08 19:05:19.169 CST [12552] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:114060 client=::1 LOG:  desconexiÃ³n: duraciÃ³n de sesiÃ³n: 0:00:00.025 usuario=postgres base=db_23101954_marco_solis host=::1 port=59049
+2026-11-08 19:05:19.170 CST [7692] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:114060 client=::1 LOG:  desconexiÃ³n: duraciÃ³n de sesiÃ³n: 0:07:21.572 usuario=postgres base=db_23101954_marco_solis host=::1 port=58373
+2026-11-08 19:05:22.667 CST [2292] user=postgres db=postgres app=pgAdmin 4 - DB:postgres client=::1 LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2026-11-08 19:05:22 CST LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2026-11-08 19:05:22.667 CST [2292] user=postgres db=postgres app=pgAdmin 4 - DB:postgres client=::1 LOG:  desconexiÃ³n: duraciÃ³n de sesiÃ³n: 0:18:48.819 usuario=postgres base=postgres host=::1 port=62866
+2026-11-08 19:05:22.672 CST [5068] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - DB:db_23101954_marco_solis client=::1 LOG:  desconexiÃ³n: duraciÃ³n de sesiÃ³n: 0:18:27.890 usuario=postgres base=db_23101954_marco_solis host=::1 port=54802
+2026-11-08 19:05:24.726 CST [5424] user= db= app= client= LOG:  checkpoint completo: escritos 65 búfers (0.4%); 0 archivos WAL añadidos, 0 eliminados, 0 reciclados; write=6.997 s, sync=0.044 s, total=7.049 s; archivos sincronizados=49, más largo=0.002 s, promedio=0.001 s; distancia=215 kB, estimación=3734 kB; lsn=0/2056C30, lsn de redo=0/2056BC0
