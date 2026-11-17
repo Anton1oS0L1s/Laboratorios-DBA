@@ -1,0 +1,57 @@
+[
+  {
+    "op": "query",
+    "ns": "admin.system.profile",
+    "command": {},
+    "ts": {
+      "$date": "2026-11-16T23:39:18.977Z"
+    },
+    "client": "127.0.0.1",
+    "appName": "app-ventas-web",
+    "user": "admin@admin"
+  },
+  {
+    "op": "query",
+    "ns": "admin.system.profile",
+    "command": {},
+    "ts": {
+      "$date": "2026-11-16T23:39:52.765Z"
+    },
+    "client": "127.0.0.1",
+    "appName": "app-ventas-web",
+    "user": "admin@admin"
+  },
+  {
+    "op": "query",
+    "ns": "admin.system.profile",
+    "command": {},
+    "ts": {
+      "$date": "2026-11-16T23:40:17.082Z"
+    },
+    "client": "127.0.0.1",
+    "appName": "app-ventas-web",
+    "user": "admin@admin"
+  },
+  {
+    "op": "query",
+    "ns": "admin.system.profile",
+    "command": {},
+    "ts": {
+      "$date": "2026-11-16T23:40:23.363Z"
+    },
+    "client": "127.0.0.1",
+    "appName": "app-ventas-web",
+    "user": "admin@admin"
+  },
+  {
+    "op": "command",
+    "ns": "admin.test",
+    "command": {},
+    "ts": {
+      "$date": "2026-11-16T23:42:40.942Z"
+    },
+    "client": "127.0.0.1",
+    "appName": "app-ventas-web",
+    "user": "admin@admin"
+  }
+]
