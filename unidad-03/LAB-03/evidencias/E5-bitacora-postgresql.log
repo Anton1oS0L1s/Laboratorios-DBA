@@ -1,0 +1,386 @@
+"replace"
+"2026-11-26 21:05:02.110 CST [5772] user= db= app= client= LOG:  el sistema de bases de datos fue apagado en 2026-11-26 02:56:25 CST
+2026-11-26 21:10:02.210 CST [5756] user= db= app= client= LOG:  empezando checkpoint: time
+2026-11-26 21:10:02.239 CST [5756] user= db= app= client= LOG:  checkpoint completo: escritos 3 búfers (0.0%); 0 archivos WAL añadidos, 0 eliminados, 0 reciclados; write=0.005 s, sync=0.005 s, total=0.038 s; archivos sincronizados=2, más largo=0.003 s, promedio=0.003 s; distancia=0 kB, estimación=0 kB; lsn=0/2059018, lsn de redo=0/2058FE0
+2026-11-26 21:15:01.435 CST [11316] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=62686
+2026-11-26 21:15:01.735 CST [11316] user=u_17498635_juan_gracia db=db_17498635_juan_gracia app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«u_17498635_juan_gracia» método=scram-sha-256 (C:/Program Files/PostgreSQL/16/data/pg_hba.conf:117)
+2026-11-26 21:15:01.735 CST [11316] user=u_17498635_juan_gracia db=db_17498635_juan_gracia app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=u_17498635_juan_gracia base_de_datos=db_17498635_juan_gracia nombre_de_aplicación=pgAdmin 4 - DB:db_17498635_juan_gracia
+2026-11-26 21:15:16.099 CST [9572] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=59414
+2026-11-26 21:15:16.100 CST [7648] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=59415
+2026-11-26 21:15:16.112 CST [9572] user=u_17498635_juan_gracia db=db_23101954_marco_solis app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«u_17498635_juan_gracia» método=scram-sha-256 (C:/Program Files/PostgreSQL/16/data/pg_hba.conf:117)
+2026-11-26 21:15:16.112 CST [9572] user=u_17498635_juan_gracia db=db_23101954_marco_solis app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=u_17498635_juan_gracia base_de_datos=db_23101954_marco_solis nombre_de_aplicación=pgAdmin 4 - DB:db_23101954_marco_solis
+2026-11-26 21:15:16.114 CST [7648] user=u_17498635_juan_gracia db=db_23101954_marco_solis app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«u_17498635_juan_gracia» método=scram-sha-256 (C:/Program Files/PostgreSQL/16/data/pg_hba.conf:117)
+2026-11-26 21:15:16.114 CST [7648] user=u_17498635_juan_gracia db=db_23101954_marco_solis app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=u_17498635_juan_gracia base_de_datos=db_23101954_marco_solis nombre_de_aplicación=pgAdmin 4 - DB:db_23101954_marco_solis
+2026-11-26 21:15:16.201 CST [9572] user=u_17498635_juan_gracia db=db_23101954_marco_solis app=pgAdmin 4 - DB:db_23101954_marco_solis client=::1 LOG:  desconexiÃ³n: duraciÃ³n de sesiÃ³n: 0:00:00.125 usuario=u_17498635_juan_gracia base=db_23101954_marco_solis host=::1 port=59414
+2026-11-26 21:15:32.210 CST [7648] user=u_17498635_juan_gracia db=db_23101954_marco_solis app=pgAdmin 4 - DB:db_23101954_marco_solis client=::1 LOG:  desconexiÃ³n: duraciÃ³n de sesiÃ³n: 0:00:16.128 usuario=u_17498635_juan_gracia base=db_23101954_marco_solis host=::1 port=59415
+2026-11-26 21:15:34.485 CST [8440] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=51992
+2026-11-26 21:15:34.490 CST [11656] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=51993
+2026-11-26 21:15:34.497 CST [8440] user=u_17498635_juan_gracia db=db_23101954_marco_solis app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«u_17498635_juan_gracia» método=scram-sha-256 (C:/Program Files/PostgreSQL/16/data/pg_hba.conf:117)
+2026-11-26 21:15:34.497 CST [8440] user=u_17498635_juan_gracia db=db_23101954_marco_solis app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=u_17498635_juan_gracia base_de_datos=db_23101954_marco_solis nombre_de_aplicación=pgAdmin 4 - DB:db_23101954_marco_solis
+2026-11-26 21:15:34.503 CST [11656] user=u_17498635_juan_gracia db=db_23101954_marco_solis app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«u_17498635_juan_gracia» método=scram-sha-256 (C:/Program Files/PostgreSQL/16/data/pg_hba.conf:117)
+2026-11-26 21:15:34.503 CST [11656] user=u_17498635_juan_gracia db=db_23101954_marco_solis app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=u_17498635_juan_gracia base_de_datos=db_23101954_marco_solis nombre_de_aplicación=pgAdmin 4 - DB:db_23101954_marco_solis
+2026-11-26 21:15:34.539 CST [8440] user=u_17498635_juan_gracia db=db_23101954_marco_solis app=pgAdmin 4 - DB:db_23101954_marco_solis client=::1 LOG:  desconexiÃ³n: duraciÃ³n de sesiÃ³n: 0:00:00.073 usuario=u_17498635_juan_gracia base=db_23101954_marco_solis host=::1 port=51992
+2026-11-26 21:17:05.095 CST [8012] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=59547
+2026-11-26 21:17:05.108 CST [8012] user=u_17498635_juan_gracia db=db_23101954_marco_solis app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«u_17498635_juan_gracia» método=scram-sha-256 (C:/Program Files/PostgreSQL/16/data/pg_hba.conf:117)
+2026-11-26 21:17:05.108 CST [8012] user=u_17498635_juan_gracia db=db_23101954_marco_solis app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=u_17498635_juan_gracia base_de_datos=db_23101954_marco_solis nombre_de_aplicación=pgAdmin 4 - CONN:7087005
+2026-11-26 21:17:21.568 CST [8012] user=u_17498635_juan_gracia db=db_23101954_marco_solis app=pgAdmin 4 - CONN:7087005 client=::1 ERROR:  permiso denegado al esquema dba en carÃ¡cter 22
+2026-11-26 21:17:21.568 CST [8012] user=u_17498635_juan_gracia db=db_23101954_marco_solis app=pgAdmin 4 - CONN:7087005 client=::1 SENTENCIA:  SELECT count(*) FROM dba.bitacora;
+2026-11-26 21:17:34.856 CST [11316] user=u_17498635_juan_gracia db=db_17498635_juan_gracia app=pgAdmin 4 - DB:db_17498635_juan_gracia client=::1 LOG:  desconexiÃ³n: duraciÃ³n de sesiÃ³n: 0:02:33.436 usuario=u_17498635_juan_gracia base=db_17498635_juan_gracia host=::1 port=62686
+2026-11-26 21:17:34.857 CST [11656] user=u_17498635_juan_gracia db=db_23101954_marco_solis app=pgAdmin 4 - DB:db_23101954_marco_solis client=::1 LOG:  desconexiÃ³n: duraciÃ³n de sesiÃ³n: 0:02:00.384 usuario=u_17498635_juan_gracia base=db_23101954_marco_solis host=::1 port=51993
+2026-11-26 21:17:35.009 CST [9996] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=54287
+2026-11-26 21:17:35.019 CST [9996] user=u_17498635_juan_gracia db=db_23101954_marco_solis app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«u_17498635_juan_gracia» método=scram-sha-256 (C:/Program Files/PostgreSQL/16/data/pg_hba.conf:117)
+2026-11-26 21:17:35.019 CST [9996] user=u_17498635_juan_gracia db=db_23101954_marco_solis app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=u_17498635_juan_gracia base_de_datos=db_23101954_marco_solis nombre_de_aplicación=pgAdmin 4 - CONN:7087005
+2026-11-26 21:17:35.025 CST [9996] user=u_17498635_juan_gracia db=db_23101954_marco_solis app=pgAdmin 4 - CONN:7087005 client=::1 LOG:  desconexiÃ³n: duraciÃ³n de sesiÃ³n: 0:00:00.028 usuario=u_17498635_juan_gracia base=db_23101954_marco_solis host=::1 port=54287
+2026-11-26 21:17:35.026 CST [8012] user=u_17498635_juan_gracia db=db_23101954_marco_solis app=pgAdmin 4 - CONN:7087005 client=::1 LOG:  desconexiÃ³n: duraciÃ³n de sesiÃ³n: 0:00:29.950 usuario=u_17498635_juan_gracia base=db_23101954_marco_solis host=::1 port=59547
+2026-11-26 21:17:40.324 CST [13092] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=60268
+2026-11-26 21:17:40.335 CST [13092] user=postgres db=postgres app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/16/data/pg_hba.conf:117)
+2026-11-26 21:17:40.335 CST [13092] user=postgres db=postgres app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=postgres nombre_de_aplicación=pgAdmin 4 - DB:postgres
+2026-11-26 21:17:40.621 CST [3136] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=53013
+2026-11-26 21:17:40.623 CST [9580] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=53012
+2026-11-26 21:17:40.635 CST [3136] user=postgres db=db_17498635_juan_gracia app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/16/data/pg_hba.conf:117)
+2026-11-26 21:17:40.635 CST [3136] user=postgres db=db_17498635_juan_gracia app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=db_17498635_juan_gracia nombre_de_aplicación=pgAdmin 4 - DB:db_17498635_juan_gracia
+2026-11-26 21:17:40.635 CST [9580] user=postgres db=db_17498635_juan_gracia app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/16/data/pg_hba.conf:117)
+2026-11-26 21:17:40.635 CST [9580] user=postgres db=db_17498635_juan_gracia app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=db_17498635_juan_gracia nombre_de_aplicación=pgAdmin 4 - DB:db_17498635_juan_gracia
+2026-11-26 21:17:40.701 CST [3136] user=postgres db=db_17498635_juan_gracia app=pgAdmin 4 - DB:db_17498635_juan_gracia client=::1 LOG:  desconexiÃ³n: duraciÃ³n de sesiÃ³n: 0:00:00.105 usuario=postgres base=db_17498635_juan_gracia host=::1 port=53013
+2026-11-26 21:17:44.903 CST [6712] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=64081
+2026-11-26 21:17:44.908 CST [12196] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=64082
+2026-11-26 21:17:44.914 CST [6712] user=postgres db=db_23101954_marco_solis app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/16/data/pg_hba.conf:117)
+2026-11-26 21:17:44.915 CST [6712] user=postgres db=db_23101954_marco_solis app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=db_23101954_marco_solis nombre_de_aplicación=pgAdmin 4 - DB:db_23101954_marco_solis
+2026-11-26 21:17:44.921 CST [12196] user=postgres db=db_23101954_marco_solis app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/16/data/pg_hba.conf:117)
+2026-11-26 21:17:44.922 CST [12196] user=postgres db=db_23101954_marco_solis app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=db_23101954_marco_solis nombre_de_aplicación=pgAdmin 4 - DB:db_23101954_marco_solis
+2026-11-26 21:17:44.947 CST [6712] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - DB:db_23101954_marco_solis client=::1 LOG:  desconexiÃ³n: duraciÃ³n de sesiÃ³n: 0:00:00.059 usuario=postgres base=db_23101954_marco_solis host=::1 port=64081
+2026-11-26 21:17:56.434 CST [12844] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=57682
+2026-11-26 21:17:56.444 CST [12844] user=u_17498635_juan_gracia db=db_17498635_juan_gracia app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«u_17498635_juan_gracia» método=scram-sha-256 (C:/Program Files/PostgreSQL/16/data/pg_hba.conf:117)
+2026-11-26 21:17:56.444 CST [12844] user=u_17498635_juan_gracia db=db_17498635_juan_gracia app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=u_17498635_juan_gracia base_de_datos=db_17498635_juan_gracia nombre_de_aplicación=pgAdmin 4 - DB:db_17498635_juan_gracia
+2026-11-26 21:17:56.517 CST [7616] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=61779
+2026-11-26 21:17:56.527 CST [7616] user=u_17498635_juan_gracia db=db_23101954_marco_solis app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«u_17498635_juan_gracia» método=scram-sha-256 (C:/Program Files/PostgreSQL/16/data/pg_hba.conf:117)
+2026-11-26 21:17:56.527 CST [7616] user=u_17498635_juan_gracia db=db_23101954_marco_solis app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=u_17498635_juan_gracia base_de_datos=db_23101954_marco_solis nombre_de_aplicación=pgAdmin 4 - CONN:1703610
+2026-11-26 21:18:03.548 CST [11916] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=50949
+2026-11-26 21:18:03.558 CST [11916] user=u_17498635_juan_gracia db=db_23101954_marco_solis app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«u_17498635_juan_gracia» método=scram-sha-256 (C:/Program Files/PostgreSQL/16/data/pg_hba.conf:117)
+2026-11-26 21:18:03.558 CST [11916] user=u_17498635_juan_gracia db=db_23101954_marco_solis app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=u_17498635_juan_gracia base_de_datos=db_23101954_marco_solis nombre_de_aplicación=pgAdmin 4 - CONN:1703610
+2026-11-26 21:18:03.562 CST [11916] user=u_17498635_juan_gracia db=db_23101954_marco_solis app=pgAdmin 4 - CONN:1703610 client=::1 LOG:  desconexiÃ³n: duraciÃ³n de sesiÃ³n: 0:00:00.025 usuario=u_17498635_juan_gracia base=db_23101954_marco_solis host=::1 port=50949
+2026-11-26 21:18:03.563 CST [7616] user=u_17498635_juan_gracia db=db_23101954_marco_solis app=pgAdmin 4 - CONN:1703610 client=::1 LOG:  desconexiÃ³n: duraciÃ³n de sesiÃ³n: 0:00:07.058 usuario=u_17498635_juan_gracia base=db_23101954_marco_solis host=::1 port=61779
+2026-11-26 21:18:05.991 CST [5348] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=65511
+2026-11-26 21:18:06.003 CST [5348] user=postgres db=db_23101954_marco_solis app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/16/data/pg_hba.conf:117)
+2026-11-26 21:18:06.003 CST [5348] user=postgres db=db_23101954_marco_solis app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=db_23101954_marco_solis nombre_de_aplicación=pgAdmin 4 - CONN:3470587
+2026-11-26 21:25:36.399 CST [5348] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:3470587 client=::1 LOG:  sentencia: INSERT INTO clientes (nombre, correo, telefono, rfc, edad, ciudad, codigo_postal) VALUES
+	('Ana Lopez', 'ANA.LOPEZ@example.test', '6671234567', 'LOAA850315AB', 41, 'Culiacan', '80000'),
+	('Jorge DÃ­az', 'sin-correo', '667', NULL, -3, 'CuliacÃ¡n', '8000');
+2026-11-26 21:25:36.403 CST [5348] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:3470587 client=::1 ERROR:  no existe la relaciÃ³n Â«clientesÂ» en carÃ¡cter 13
+2026-11-26 21:25:36.403 CST [5348] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:3470587 client=::1 SENTENCIA:  INSERT INTO clientes (nombre, correo, telefono, rfc, edad, ciudad, codigo_postal) VALUES
+	('Ana Lopez', 'ANA.LOPEZ@example.test', '6671234567', 'LOAA850315AB', 41, 'Culiacan', '80000'),
+	('Jorge DÃ­az', 'sin-correo', '667', NULL, -3, 'CuliacÃ¡n', '8000');
+2026-11-26 21:26:24.396 CST [5348] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:3470587 client=::1 LOG:  sentencia: CREATE TABLE clientes (
+	    id BIGSERIAL PRIMARY KEY,
+	    nombre VARCHAR(120) NOT NULL,
+	    correo VARCHAR(150) NOT NULL,
+	    telefono VARCHAR(20),
+	    rfc VARCHAR(13),
+	    edad INTEGER,
+	    ciudad VARCHAR(80),
+	    codigo_postal VARCHAR(10),
+	    fecha_alta DATE DEFAULT CURRENT_DATE
+	);
+2026-11-26 21:26:41.928 CST [5348] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:3470587 client=::1 LOG:  sentencia: INSERT INTO clientes
+	(nombre, correo, telefono, rfc, edad, ciudad, codigo_postal)
+	VALUES
+	('Ana LÃ³pez',
+	 'ana.lopez@example.test',
+	 '6671234567',
+	 'LOAA850315ABC',
+	 41,
+	 'CuliacÃ¡n',
+	 '80000'),
+	
+	('Carlos PÃ©rez',
+	 'carlos.perez@example.test',
+	 '6672345678',
+	 'PECA900720DEF',
+	 35,
+	 'CuliacÃ¡n',
+	 '80100'),
+	
+	('MarÃ­a GarcÃ­a',
+	 'maria.garcia@example.test',
+	 '6673456789',
+	 'GAMA780912GHI',
+	 47,
+	 'MazatlÃ¡n',
+	 '82000'),
+	
+	('Luis Torres',
+	 'luis.torres@example.test',
+	 '6674567890',
+	 'TOLU920201JKL',
+	 34,
+	 'Los Mochis',
+	 '81200'),
+	
+	('Laura SÃ¡nchez',
+	 'laura.sanchez@example.test',
+	 '6675678901',
+	 'SALA880525MNO',
+	 38,
+	 'CuliacÃ¡n',
+	 '80200');
+2026-11-26 21:27:04.589 CST [5348] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:3470587 client=::1 LOG:  sentencia: CREATE VIEW v_clientes_soporte AS
+	SELECT
+	    id,
+	    nombre,
+	
+	    CONCAT(
+	        LEFT(correo, 2),
+	        '*****',
+	        SUBSTRING(correo FROM POSITION('@' IN correo))
+	    ) AS correo,
+	
+	    CONCAT(
+	        '******',
+	        RIGHT(telefono, 4)
+	    ) AS telefono,
+	
+	    CONCAT(
+	        '*********',
+	        RIGHT(rfc, 4)
+	    ) AS rfc
+	
+	FROM clientes;
+2026-11-26 21:27:22.377 CST [5348] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:3470587 client=::1 LOG:  sentencia: GRANT USAGE
+	ON SCHEMA public
+	TO soporte;
+	
+	GRANT SELECT
+	ON v_clientes_soporte
+	TO soporte;
+2026-11-26 21:27:32.971 CST [5348] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:3470587 client=::1 LOG:  sentencia: REVOKE ALL
+	ON clientes
+	FROM soporte;
+2026-11-26 21:27:47.341 CST [5348] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:3470587 client=::1 LOG:  sentencia: CREATE SCHEMA pii;
+	
+	CREATE SCHEMA analitica;
+2026-11-26 21:27:56.642 CST [5348] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:3470587 client=::1 LOG:  sentencia: CREATE TABLE pii.mapa_cliente (
+	    token UUID PRIMARY KEY,
+	    cliente_id BIGINT UNIQUE
+	        REFERENCES public.clientes(id)
+	);
+2026-11-26 21:29:03.864 CST [5348] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:3470587 client=::1 LOG:  sentencia: CREATE EXTENSION IF NOT EXISTS pgcrypto;
+2026-11-26 21:29:13.825 CST [5348] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:3470587 client=::1 LOG:  sentencia: INSERT INTO pii.mapa_cliente
+	(token, cliente_id)
+	SELECT
+	    gen_random_uuid(),
+	    id
+	FROM clientes;
+2026-11-26 21:29:23.593 CST [5348] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:3470587 client=::1 LOG:  sentencia: CREATE TABLE analitica.clientes AS
+	SELECT
+	    m.token AS cliente_token,
+	    c.edad,
+	    c.ciudad,
+	    c.codigo_postal,
+	    c.fecha_alta
+	FROM pii.mapa_cliente m
+	JOIN clientes c
+	    ON c.id = m.cliente_id;
+2026-11-26 21:29:36.036 CST [5348] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:3470587 client=::1 LOG:  sentencia: CREATE ROLE analista NOLOGIN;
+2026-11-26 21:29:36.038 CST [5348] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:3470587 client=::1 ERROR:  el rol Â«analistaÂ» ya existe
+2026-11-26 21:29:36.038 CST [5348] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:3470587 client=::1 SENTENCIA:  CREATE ROLE analista NOLOGIN;
+2026-11-26 21:29:50.871 CST [5348] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:3470587 client=::1 LOG:  sentencia: GRANT USAGE
+	ON SCHEMA analitica
+	TO analista;
+	
+	GRANT SELECT
+	ON analitica.clientes
+	TO analista;
+2026-11-26 21:30:02.021 CST [5756] user= db= app= client= LOG:  empezando checkpoint: time
+2026-11-26 21:30:14.228 CST [5756] user= db= app= client= LOG:  checkpoint completo: escritos 112 búfers (0.7%); 0 archivos WAL añadidos, 0 eliminados, 0 reciclados; write=12.084 s, sync=0.102 s, total=12.207 s; archivos sincronizados=63, más largo=0.007 s, promedio=0.002 s; distancia=450 kB, estimación=450 kB; lsn=0/20C98E8, lsn de redo=0/20C9878
+2026-11-26 21:30:55.818 CST [5348] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:3470587 client=::1 LOG:  sentencia: CREATE TABLE usuarios_insegura (
+	    id BIGSERIAL PRIMARY KEY,
+	    usuario VARCHAR(50) NOT NULL,
+	    password VARCHAR(100) NOT NULL
+	);
+2026-11-26 21:31:04.492 CST [5348] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:3470587 client=::1 LOG:  sentencia: INSERT INTO usuarios_insegura (usuario, password)
+	VALUES ('juan', 'Password123');
+2026-11-26 21:31:16.476 CST [5348] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:3470587 client=::1 LOG:  sentencia: CREATE TABLE usuarios_segura (
+	    id BIGSERIAL PRIMARY KEY,
+	    usuario VARCHAR(50) UNIQUE NOT NULL,
+	    password_hash TEXT NOT NULL
+	);
+2026-11-26 21:31:29.914 CST [5348] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:3470587 client=::1 LOG:  sentencia: INSERT INTO usuarios_segura (usuario, password_hash)
+	VALUES (
+	    'juan',
+	    crypt('Password123', gen_salt('bf'))
+	);
+2026-11-26 21:31:40.346 CST [5348] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:3470587 client=::1 LOG:  sentencia: CREATE TABLE clientes_protegidos (
+	    id BIGSERIAL PRIMARY KEY,
+	    nombre VARCHAR(120) NOT NULL,
+	    rfc_cifrado BYTEA NOT NULL
+	);
+2026-11-26 21:31:48.107 CST [5348] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:3470587 client=::1 LOG:  sentencia: INSERT INTO clientes_protegidos (
+	    nombre,
+	    rfc_cifrado
+	)
+	VALUES (
+	    'Ana LÃ³pez',
+	    pgp_sym_encrypt('LOPA900101ABC', 'CLAVE-DE-PRUEBA')
+	);
+2026-11-26 21:32:54.657 CST [5348] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:3470587 client=::1 LOG:  sentencia: CREATE TABLE clientes_soporte (
+	    id BIGSERIAL,
+	    nombre VARCHAR(120),
+	    correo VARCHAR(150),
+	    telefono VARCHAR(20),
+	    rfc VARCHAR(13),
+	    edad INTEGER,
+	    ciudad VARCHAR(80),
+	    codigo_postal VARCHAR(10),
+	    fecha_alta DATE
+	);
+2026-11-26 21:33:03.793 CST [5348] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:3470587 client=::1 LOG:  sentencia: CREATE TABLE clientes_soporte (
+	    id BIGINT PRIMARY KEY,
+	    nombre VARCHAR(120) NOT NULL,
+	    correo VARCHAR(150) NOT NULL,
+	    telefono VARCHAR(20)
+	);
+2026-11-26 21:33:03.795 CST [5348] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:3470587 client=::1 ERROR:  la relaciÃ³n Â«clientes_soporteÂ» ya existe
+2026-11-26 21:33:03.795 CST [5348] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:3470587 client=::1 SENTENCIA:  CREATE TABLE clientes_soporte (
+	    id BIGINT PRIMARY KEY,
+	    nombre VARCHAR(120) NOT NULL,
+	    correo VARCHAR(150) NOT NULL,
+	    telefono VARCHAR(20)
+	);
+2026-11-26 21:33:34.055 CST [14976] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=50244
+2026-11-26 21:33:34.087 CST [14976] user=postgres db=db_23101954_marco_solis app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/16/data/pg_hba.conf:117)
+2026-11-26 21:33:34.087 CST [14976] user=postgres db=db_23101954_marco_solis app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=db_23101954_marco_solis nombre_de_aplicación=pgAdmin 4 - CONN:9875413
+2026-11-26 21:33:38.826 CST [5348] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:3470587 client=::1 LOG:  sentencia: drop table clientes_soporte;
+2026-11-26 21:33:46.628 CST [5348] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:3470587 client=::1 LOG:  sentencia: CREATE TABLE clientes_soporte (
+	    id BIGINT PRIMARY KEY,
+	    nombre VARCHAR(120) NOT NULL,
+	    correo VARCHAR(150) NOT NULL,
+	    telefono VARCHAR(20)
+	);
+2026-11-26 21:35:02.185 CST [5756] user= db= app= client= LOG:  empezando checkpoint: time
+2026-11-26 21:35:08.574 CST [5756] user= db= app= client= LOG:  checkpoint completo: escritos 59 búfers (0.4%); 0 archivos WAL añadidos, 0 eliminados, 0 reciclados; write=6.332 s, sync=0.048 s, total=6.390 s; archivos sincronizados=51, más largo=0.003 s, promedio=0.001 s; distancia=219 kB, estimación=427 kB; lsn=0/2100888, lsn de redo=0/2100850
+2026-11-26 21:35:56.029 CST [5348] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:3470587 client=::1 LOG:  sentencia: CREATE VIEW v_analitica_clientes AS
+	SELECT
+	    ciudad,
+	    CASE
+	        WHEN edad < 18 THEN 'Menor de 18'
+	        WHEN edad BETWEEN 18 AND 29 THEN '18-29'
+	        WHEN edad BETWEEN 30 AND 44 THEN '30-44'
+	        WHEN edad BETWEEN 45 AND 59 THEN '45-59'
+	        ELSE '60 o mÃ¡s'
+	    END AS rango_edad
+	FROM clientes;
+2026-11-26 21:36:06.786 CST [5348] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:3470587 client=::1 LOG:  sentencia: GRANT USAGE ON SCHEMA public TO analista;
+	
+	GRANT SELECT
+	ON v_analitica_clientes
+	TO analista;
+2026-11-26 21:36:27.661 CST [5348] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:3470587 client=::1 LOG:  sentencia: UPDATE clientes
+	SET correo = 'nuevo-correo@example.com'
+	WHERE id = 1;
+2026-11-26 21:40:02.528 CST [5756] user= db= app= client= LOG:  empezando checkpoint: time
+2026-11-26 21:40:05.297 CST [5756] user= db= app= client= LOG:  checkpoint completo: escritos 26 búfers (0.2%); 0 archivos WAL añadidos, 0 eliminados, 0 reciclados; write=2.729 s, sync=0.030 s, total=2.770 s; archivos sincronizados=22, más largo=0.004 s, promedio=0.002 s; distancia=123 kB, estimación=396 kB; lsn=0/211F640, lsn de redo=0/211F608
+2026-11-26 21:46:12.070 CST [5348] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:3470587 client=::1 LOG:  sentencia: INSERT INTO clientes (nombre, correo, telefono, rfc, edad, ciudad, codigo_postal) VALUES
+	('Ana Lopez', 'ANA.LOPEZ@example.test', '6671234567', 'LOAA850315AB', 41, 'Culiacan', '80000'),
+	('Jorge DÃ­az', 'sin-correo', '667', NULL, -3, 'CuliacÃ¡n', '8000');
+2026-11-26 21:46:35.085 CST [12844] user=u_17498635_juan_gracia db=db_17498635_juan_gracia app=pgAdmin 4 - DB:db_17498635_juan_gracia client=::1 LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2026-11-26 21:46:35.086 CST [12844] user=u_17498635_juan_gracia db=db_17498635_juan_gracia app=pgAdmin 4 - DB:db_17498635_juan_gracia client=::1 LOG:  desconexiÃ³n: duraciÃ³n de sesiÃ³n: 0:28:38.664 usuario=u_17498635_juan_gracia base=db_17498635_juan_gracia host=::1 port=57682
+2026-11-26 21:46:35.091 CST [12196] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - DB:db_23101954_marco_solis client=::1 LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2026-11-26 21:46:35.092 CST [12196] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - DB:db_23101954_marco_solis client=::1 LOG:  desconexiÃ³n: duraciÃ³n de sesiÃ³n: 0:28:50.200 usuario=postgres base=db_23101954_marco_solis host=::1 port=64082
+2026-11-26 21:46:35.093 CST [9580] user=postgres db=db_17498635_juan_gracia app=pgAdmin 4 - DB:db_17498635_juan_gracia client=::1 LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2026-11-26 21:46:35.092 CST [5348] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:3470587 client=::1 LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2026-11-26 21:46:35.093 CST [5348] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:3470587 client=::1 LOG:  desconexiÃ³n: duraciÃ³n de sesiÃ³n: 0:28:29.116 usuario=postgres base=db_23101954_marco_solis host=::1 port=65511
+2026-11-26 21:46:35.094 CST [9580] user=postgres db=db_17498635_juan_gracia app=pgAdmin 4 - DB:db_17498635_juan_gracia client=::1 LOG:  desconexiÃ³n: duraciÃ³n de sesiÃ³n: 0:28:54.494 usuario=postgres base=db_17498635_juan_gracia host=::1 port=53012
+2026-11-26 21:46:35.094 CST [14976] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:9875413 client=::1 LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2026-11-26 21:46:35.095 CST [14976] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:9875413 client=::1 LOG:  desconexiÃ³n: duraciÃ³n de sesiÃ³n: 0:13:01.061 usuario=postgres base=db_23101954_marco_solis host=::1 port=50244
+2026-11-26 21:46:35.095 CST [13092] user=postgres db=postgres app=pgAdmin 4 - DB:postgres client=::1 LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2026-11-26 21:46:35.096 CST [13092] user=postgres db=postgres app=pgAdmin 4 - DB:postgres client=::1 LOG:  desconexiÃ³n: duraciÃ³n de sesiÃ³n: 0:28:54.784 usuario=postgres base=postgres host=::1 port=60268
+2026-11-26 21:47:25.964 CST [8900] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=59080
+2026-11-26 21:47:26.006 CST [3352] user=[desconocido] db=[desconocido] app=[desconocido] client=127.0.0.1 LOG:  conexión recibida: host=127.0.0.1 port=59081
+2026-11-26 21:47:57.100 CST [5324] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=50320
+2026-11-26 21:47:57.114 CST [5324] user=postgres db=postgres app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/16/data/pg_hba.conf:117)
+2026-11-26 21:47:57.114 CST [5324] user=postgres db=postgres app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=postgres nombre_de_aplicación=pgAdmin 4 - DB:postgres
+2026-11-26 21:47:57.251 CST [11880] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=51775
+2026-11-26 21:47:57.262 CST [11880] user=postgres db=db_23101954_marco_solis app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/16/data/pg_hba.conf:117)
+2026-11-26 21:47:57.262 CST [11880] user=postgres db=db_23101954_marco_solis app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=db_23101954_marco_solis nombre_de_aplicación=pgAdmin 4 - CONN:8649511
+2026-11-26 21:48:24.107 CST [15520] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=57595
+2026-11-26 21:48:24.114 CST [13260] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=61773
+2026-11-26 21:48:24.120 CST [15520] user=postgres db=db_23101954_marco_solis app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/16/data/pg_hba.conf:117)
+2026-11-26 21:48:24.120 CST [15520] user=postgres db=db_23101954_marco_solis app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=db_23101954_marco_solis nombre_de_aplicación=pgAdmin 4 - DB:db_23101954_marco_solis
+2026-11-26 21:48:24.126 CST [13260] user=postgres db=db_23101954_marco_solis app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/16/data/pg_hba.conf:117)
+2026-11-26 21:48:24.126 CST [13260] user=postgres db=db_23101954_marco_solis app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=db_23101954_marco_solis nombre_de_aplicación=pgAdmin 4 - DB:db_23101954_marco_solis
+2026-11-26 21:48:24.149 CST [15520] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - DB:db_23101954_marco_solis client=::1 LOG:  desconexiÃ³n: duraciÃ³n de sesiÃ³n: 0:00:00.059 usuario=postgres base=db_23101954_marco_solis host=::1 port=57595
+2026-11-26 21:50:02.200 CST [5756] user= db= app= client= LOG:  empezando checkpoint: time
+2026-11-26 21:50:03.100 CST [5756] user= db= app= client= LOG:  checkpoint completo: escritos 9 búfers (0.1%); 0 archivos WAL añadidos, 0 eliminados, 0 reciclados; write=0.880 s, sync=0.010 s, total=0.901 s; archivos sincronizados=9, más largo=0.002 s, promedio=0.002 s; distancia=8 kB, estimación=357 kB; lsn=0/2121990, lsn de redo=0/2121958
+2026-11-26 21:51:18.704 CST [13672] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=61089
+2026-11-26 21:51:18.714 CST [13672] user=postgres db=db_23101954_marco_solis app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/16/data/pg_hba.conf:117)
+2026-11-26 21:51:18.714 CST [13672] user=postgres db=db_23101954_marco_solis app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=db_23101954_marco_solis nombre_de_aplicación=pgAdmin 4 - DB:db_23101954_marco_solis
+2026-11-26 21:51:18.718 CST [13672] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - DB:db_23101954_marco_solis client=::1 LOG:  desconexiÃ³n: duraciÃ³n de sesiÃ³n: 0:00:00.026 usuario=postgres base=db_23101954_marco_solis host=::1 port=61089
+2026-11-26 21:51:18.719 CST [11880] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:8649511 client=::1 LOG:  desconexiÃ³n: duraciÃ³n de sesiÃ³n: 0:03:21.479 usuario=postgres base=db_23101954_marco_solis host=::1 port=51775
+2026-11-26 21:51:21.246 CST [10468] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=51033
+2026-11-26 21:51:21.256 CST [10468] user=postgres db=db_23101954_marco_solis app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/16/data/pg_hba.conf:117)
+2026-11-26 21:51:21.256 CST [10468] user=postgres db=db_23101954_marco_solis app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=db_23101954_marco_solis nombre_de_aplicación=pgAdmin 4 - CONN:3591179
+2026-11-26 22:40:46.216 CST [10468] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:3591179 client=::1 LOG:  sentencia: COMMENT ON TABLE clientes IS 'Clientes de Comercializadora Norte. Propietario: Gerencia Comercial. Custodio: DBA. ClasificaciÃ³n: confidencial (contiene datos personales).';
+	COMMENT ON COLUMN clientes.id IS 'Identificador interno del cliente. Generado por el sistema.';
+	COMMENT ON COLUMN clientes.nombre IS 'Nombre completo. Dato personal identificador directo.';
+	COMMENT ON COLUMN clientes.correo IS 'Correo de contacto. Dato personal. Uso: notificaciones al cliente.';
+	COMMENT ON COLUMN clientes.rfc IS 'RFC del cliente. Dato personal. Uso: facturaciÃ³n. Cambios auditados en auditoria.cambios_clientes.';
+	COMMENT ON COLUMN clientes.edad IS 'Edad en aÃ±os cumplidos. Dato personal. Uso: analÃ­tica agregada.';
+2026-11-26 22:43:15.753 CST [3004] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=63413
+2026-11-26 22:43:15.766 CST [3004] user=postgres db=db_23101954_marco_solis app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/16/data/pg_hba.conf:117)
+2026-11-26 22:43:15.766 CST [3004] user=postgres db=db_23101954_marco_solis app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=db_23101954_marco_solis nombre_de_aplicación=pgAdmin 4 - CONN:3591179
+2026-11-26 22:43:15.771 CST [3004] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:3591179 client=::1 LOG:  desconexiÃ³n: duraciÃ³n de sesiÃ³n: 0:00:00.042 usuario=postgres base=db_23101954_marco_solis host=::1 port=63413
+2026-11-26 22:43:15.772 CST [10468] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:3591179 client=::1 LOG:  desconexiÃ³n: duraciÃ³n de sesiÃ³n: 0:51:54.539 usuario=postgres base=db_23101954_marco_solis host=::1 port=51033
+2026-11-26 22:43:19.694 CST [14216] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=56976
+2026-11-26 22:43:19.710 CST [14216] user=postgres db=db_23101954_marco_solis app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/16/data/pg_hba.conf:117)
+2026-11-26 22:43:19.710 CST [14216] user=postgres db=db_23101954_marco_solis app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=db_23101954_marco_solis nombre_de_aplicación=pgAdmin 4 - CONN:177847
+2026-11-26 22:44:21.137 CST [3620] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=51174
+2026-11-26 22:44:21.150 CST [3620] user=postgres db=db_23101954_marco_solis app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/16/data/pg_hba.conf:117)
+2026-11-26 22:44:21.150 CST [3620] user=postgres db=db_23101954_marco_solis app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=db_23101954_marco_solis nombre_de_aplicación=pgAdmin 4 - CONN:177847
+2026-11-26 22:44:21.163 CST [3620] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:177847 client=::1 LOG:  desconexiÃ³n: duraciÃ³n de sesiÃ³n: 0:00:00.048 usuario=postgres base=db_23101954_marco_solis host=::1 port=51174
+2026-11-26 22:44:21.164 CST [14216] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:177847 client=::1 LOG:  desconexiÃ³n: duraciÃ³n de sesiÃ³n: 0:01:01.497 usuario=postgres base=db_23101954_marco_solis host=::1 port=56976
+2026-11-26 22:44:23.808 CST [12092] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=65241
+2026-11-26 22:44:23.832 CST [12092] user=postgres db=db_23101954_marco_solis app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/16/data/pg_hba.conf:117)
+2026-11-26 22:44:23.832 CST [12092] user=postgres db=db_23101954_marco_solis app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=db_23101954_marco_solis nombre_de_aplicación=pgAdmin 4 - CONN:6643280
+2026-11-26 22:44:44.823 CST [12092] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:6643280 client=::1 LOG:  sentencia: CREATE SCHEMA gobierno;
+	REVOKE ALL ON SCHEMA gobierno FROM PUBLIC;
+	
+	CREATE TABLE gobierno.solicitudes_cambio (
+	    folio            TEXT PRIMARY KEY,
+	    descripcion      TEXT NOT NULL,
+	    solicitado_por   TEXT NOT NULL,
+	    aprobado_por     TEXT,
+	    ambiente         TEXT NOT NULL CHECK (ambiente IN ('desarrollo', 'pruebas', 'produccion')),
+	    fecha_aprobacion TIMESTAMPTZ,
+	    ventana_inicio   TIMESTAMPTZ,
+	    ventana_fin      TIMESTAMPTZ
+	);
+	
+	COMMENT ON TABLE gobierno.solicitudes_cambio IS 'Registro de solicitudes de cambio en la base comercial. Propietario: ComitÃ© de cambios. Custodio: DBA. Evidencia de POL-06.';
+2026-11-26 22:45:01.518 CST [12092] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:6643280 client=::1 LOG:  sentencia: INSERT INTO gobierno.solicitudes_cambio VALUES
+	('CAM-2026-014', 'Agregar columna canal_alta a clientes', 'Gerencia Comercial',
+	 'ComitÃ© de cambios', 'produccion', now() - interval '1 day',
+	 now() - interval '5 minutes', now() + interval '1 hour');
+	
+	ALTER TABLE clientes ADD COLUMN canal_alta VARCHAR(20);
+	COMMENT ON COLUMN clientes.canal_alta IS 'Canal por el que se registrÃ³ el cliente. Cambio CAM-2026-014.';
+2026-11-26 22:45:02.805 CST [5756] user= db= app= client= LOG:  empezando checkpoint: time
+2026-11-26 22:45:16.474 CST [5756] user= db= app= client= LOG:  checkpoint completo: escritos 125 búfers (0.8%); 0 archivos WAL añadidos, 0 eliminados, 0 reciclados; write=13.581 s, sync=0.071 s, total=13.671 s; archivos sincronizados=48, más largo=0.016 s, promedio=0.002 s; distancia=722 kB, estimación=722 kB; lsn=0/21D6E88, lsn de redo=0/21D61F8
+2026-11-26 22:49:49.184 CST [4024] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=63456
+2026-11-26 22:49:49.206 CST [4024] user=postgres db=db_23101954_marco_solis app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/16/data/pg_hba.conf:117)
+2026-11-26 22:49:49.206 CST [4024] user=postgres db=db_23101954_marco_solis app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=db_23101954_marco_solis nombre_de_aplicación=pgAdmin 4 - CONN:6643280
+2026-11-26 22:49:49.213 CST [4024] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:6643280 client=::1 LOG:  desconexiÃ³n: duraciÃ³n de sesiÃ³n: 0:00:00.057 usuario=postgres base=db_23101954_marco_solis host=::1 port=63456
+2026-11-26 22:49:49.216 CST [12092] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:6643280 client=::1 LOG:  desconexiÃ³n: duraciÃ³n de sesiÃ³n: 0:05:25.432 usuario=postgres base=db_23101954_marco_solis host=::1 port=65241
+2026-11-26 22:50:28.104 CST [14884] user=[desconocido] db=[desconocido] app=[desconocido] client=::1 LOG:  conexión recibida: host=::1 port=50494
+2026-11-26 22:50:28.117 CST [14884] user=postgres db=db_23101954_marco_solis app=[desconocido] client=::1 LOG:  conexión autenticada: identidad=«postgres» método=scram-sha-256 (C:/Program Files/PostgreSQL/16/data/pg_hba.conf:117)
+2026-11-26 22:50:28.117 CST [14884] user=postgres db=db_23101954_marco_solis app=[desconocido] client=::1 LOG:  conexión autorizada: usuario=postgres base_de_datos=db_23101954_marco_solis nombre_de_aplicación=pgAdmin 4 - CONN:4231374
+2026-11-26 22:53:49.621 CST [14884] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:4231374 client=::1 ERROR:  secuencia de bytes no vÃ¡lida para codificaciÃ³n Â«UTF8Â»: 0xfa
+2026-11-26 22:53:49.621 CST [14884] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:4231374 client=::1 SENTENCIA:  SELECT replace(pg_read_file(pg_current_logfile()), '<REDACTED>', '<REDACTED>')
+2026-11-26 22:55:59.263 CST [14884] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:4231374 client=::1 ERROR:  secuencia de bytes no vÃ¡lida para codificaciÃ³n Â«UTF8Â»: 0xfa
+2026-11-26 22:55:59.263 CST [14884] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:4231374 client=::1 SENTENCIA:  SELECT replace(pg_read_file(pg_current_logfile()), '<REDACTED>', '<REDACTED>')
+2026-11-26 22:58:37.391 CST [14884] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:4231374 client=::1 ERROR:  la sintaxis de entrada no es vÃ¡lida para tipo boolean: Â«WIN1252Â» en carÃ¡cter 57
+2026-11-26 22:58:37.391 CST [14884] user=postgres db=db_23101954_marco_solis app=pgAdmin 4 - CONN:4231374 client=::1 SENTENCIA:  SELECT replace(
+	    pg_read_file(pg_current_logfile(), 'WIN1252'),
+	    '<REDACTED>',
+	    '<REDACTED>'
+	);
+"

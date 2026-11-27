@@ -1,0 +1,10 @@
+"id_evento","momento","usuario_sesion","aplicacion","operacion","id_cliente"
+9,"2026-11-24 22:14:29.313186-06","u_23101954_marco_solis","pgAdmin 4 - CONN:9557650","INSERT",8
+8,"2026-11-24 22:14:29.313186-06","u_23101954_marco_solis","pgAdmin 4 - CONN:9557650","INSERT",7
+7,"2026-11-06 23:33:15.514705-06","postgres","pgAdmin 4 - CONN:3123446","UPDATE",3
+6,"2026-11-06 23:33:15.514705-06","postgres","pgAdmin 4 - CONN:3123446","UPDATE",5
+5,"2026-11-06 23:33:15.514705-06","postgres","pgAdmin 4 - CONN:3123446","UPDATE",4
+4,"2026-11-06 23:33:15.514705-06","postgres","pgAdmin 4 - CONN:3123446","UPDATE",2
+3,"2026-11-06 23:33:15.514705-06","postgres","pgAdmin 4 - CONN:3123446","UPDATE",1
+2,"2026-11-06 23:27:11.997144-06","postgres","pgAdmin 4 - CONN:3123446","DELETE",6
+1,"2026-11-06 23:27:08.625365-06","postgres","pgAdmin 4 - CONN:3123446","INSERT",6

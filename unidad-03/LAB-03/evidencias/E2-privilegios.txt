@@ -1,0 +1,4 @@
+"grantee","table_schema","table_name","privilegios"
+"analista","analitica","clientes","SELECT"
+"analista","public","v_analitica_clientes","SELECT"
+"soporte","public","v_clientes_soporte","SELECT"

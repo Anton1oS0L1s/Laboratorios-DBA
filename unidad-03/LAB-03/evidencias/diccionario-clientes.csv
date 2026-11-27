@@ -1,0 +1,10 @@
+"columna","tipo","longitud","acepta_nulos","descripcion"
+"id","bigint",NULL,"NO","Identificador interno del cliente. Generado por el sistema."
+"nombre","character varying",120,"NO","Nombre completo. Dato personal identificador directo."
+"correo","character varying",150,"NO","Correo de contacto. Dato personal. Uso: notificaciones al cliente."
+"telefono","character varying",20,"YES",NULL
+"rfc","character varying",13,"YES","RFC del cliente. Dato personal. Uso: facturación. Cambios auditados en auditoria.cambios_clientes."
+"edad","integer",NULL,"YES","Edad en años cumplidos. Dato personal. Uso: analítica agregada."
+"ciudad","character varying",80,"YES",NULL
+"codigo_postal","character varying",10,"YES",NULL
+"fecha_alta","date",NULL,"YES",NULL

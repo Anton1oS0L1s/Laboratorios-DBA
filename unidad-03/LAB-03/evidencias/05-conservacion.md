@@ -1,0 +1,32 @@
+# Actividad 5 — Criterio de conservación de bitácoras y registros de auditoría
+
+
+## Matriz de conservación 
+
+| Registro | Ubicación actual | Riesgo de pérdida observado | Sensibilidad | Periodo propuesto | Justificación | Dónde se conserva | Quién puede leerlo | Acción al vencer |
+|---|---|---|---|---|---|---|---|---|
+| **Accesos de PostgreSQL** | Archivo del colector (pg_current_logfile()) | Rotación del archivo; reinstalación o recreación del contenedor/servidor | Media (usuarios, IPs origen, marcas temporales) | 90 días en consulta rápida + 9 meses en archivo histórico (1 año total) | Cubre investigaciones de intentos de intrusión o accesos fuera de horario dentro de ciclos trimestrales de revisión sin agotar el almacenamiento local. | Servidor centralizado de logs / almacenamiento externo de solo lectura | Auditoría Interna, Seguridad de la Información y DBA | Purga automatizada mediante tarea programada con bitácora de ejecución |
+| **Cambios de privilegios y estructura** | Archivo del colector (log_statement = 'mod' / DDL) | Rotación de archivos o manipulación local por un usuario con permisos de superusuario | Alta (expone arquitectura y contraseñas en sentencias CREATE/ALTER ROLE) | 2 años (plazo definitivo a confirmar con el área jurídica respecto a auditorías administrativas y fiscales) | Eventos poco frecuentes pero críticos que permiten reconstruir quién alteró el modelo de seguridad o los esquemas en auditorías anuales. | Repositorio externo inmutable (WORM) previo saneamiento de secretos | Auditoría Interna y Seguridad de la Información | Destrucción certificada previa autorización de Auditoría Interna |
+| **Modificaciones de datos (log_statement = 'mod')** | Archivo del colector | Alto volumen de operaciones provoca rotación acelerada y sobrescritura | Alta (contiene parámetros y datos personales en sentencias SQL) | 6 meses en almacenamiento centralizado | Sirve de respaldo forense ante operaciones masivas (UPDATE/DELETE sin filtro) o desactivación de disparadores en la base operativa. | Servidor centralizado de logs aislado de las cuentas de aplicación | Auditoría Interna, Seguridad de la Información y DBA | Eliminación segura automatizada |
+| **auditoria.cambios_clientes** | Tabla en base comercial | Un superusuario (DBA) puede ejecutar TRUNCATE/DELETE o desactivar el disparador; crecimiento continuo | Alta (contiene datos personales íntegros en JSONB: RFC, correo, teléfono) | 12 meses en línea; plazo total a confirmar con el área jurídica (obligaciones fiscales del SAT vs. derechos ARCO en LFPDPPP) | Equilibra la disponibilidad inmediata para aclaraciones comerciales/fiscales con el principio de limitación del plazo de conservación de datos personales. | Esquema auditoria en comercial + exportaciones periódicas cifradas | Auditoría Interna (solo lectura) y función disparadora (SECURITY DEFINER) | Anonimización de atributos personales (RFC, nombre, correo) o purga definitiva |
+| **Bitácora de mongod** | systemLog.path o salida estándar; getLog solo en memoria | Pérdida total de getLog tras reinicios del servicio; pérdida de salida estándar al recrear contenedores | Media-Alta (autenticaciones, errores de red, comandos administrativos) | 90 días en repositorio centralizado | Permite auditar eventos operativos y fallos de acceso en MongoDB sin depender de la memoria volátil del proceso. | Volumen persistente replicado a servidor centralizado de logs | DBA, Seguridad de la Información y Auditoría Interna | Rotación y borrado automático al cumplirse el plazo |
+| **system.profile (MongoDB)** | Colección limitada (capped) de 1 MB en comercial | Sobrescritura automática en minutos u horas bajo carga normal de consultas | Alta (registra filtros de consulta y documentos completos con datos personales) | 7 días en colección operativa (30 días si se exporta por incidente) | Su función es diagnóstico de rendimiento y detección temprana de extracciones anómalas, no almacenamiento histórico. | Exportación periódica fuera de la colección capped a repositorio seguro | DBA y Auditoría Interna | Sobrescritura natural en colección capped / purga de exportaciones |
+| **Instantáneas de privilegios (MongoDB)** | auditoria.instantaneas_privilegios | Borrado accidental o alteración si permanece únicamente en el entorno operativo | Alta (fotografía completa de roles, usuarios y permisos asignados) | 2 años (comparación histórica trimestral) | Permite verificar la evolución de la superficie de acceso y detectar asignaciones de privilegios no autorizadas en el tiempo. | Repositorio cifrado de evidencias de gobierno y auditoría | Auditoría Interna y Seguridad de la Información | Archivo histórico o eliminación segura tras cierre de auditoría anual |
+
+---
+
+**1. ¿Por qué la bitácora de cambios de privilegios merece más tiempo de conservación que la de consultas rutinarias?**
+
+Porque las alteraciones de permisos y estructuras (GRANT, REVOKE, CREATE ROLE, ALTER TABLE) representan cambios estructurales en la superficie de seguridad que ocurren con baja frecuencia, pero cuyo abuso suele descubrirse meses después durante una revisión anual o tras materializarse un fraude. Por el contrario, las consultas rutinarias generan un volumen masivo de registros con bajo valor probatorio a largo plazo y alto impacto en costos de almacenamiento.
+
+
+**2. ¿Qué control de integridad aplicarás a las bitácoras exportadas?**
+
+   Al momento de extraer cada archivo de bitácora se debe calcular su huella criptográfica SHA-256, almacenar el resumen de verificación en un registro separado con sello de tiempo y depositar el archivo en un almacenamiento inmutable. Cualquier modificación posterior sobre el archivo exportado alterará su hash y invalidará la evidencia de forma inmediata.
+
+
+**3. ¿Qué diferencia hay entre conservar una bitácora y respaldar una base de datos?**
+
+Respaldar una base de datos tiene como objetivo la continuidad operativa y recuperación del estado vigente de los datos ante una pérdida, fallo de hardware o corrupción.
+
+ Conservar una bitácora tiene como objetivo garantizar la trazabilidad cronológica e inalterable de las acciones ejecutadas por usuarios y procesos para fines forenses y de cumplimiento; mientras un respaldo reemplaza estados anteriores, la bitácora preserva la historia completa de cómo se llegó a ese estado.
